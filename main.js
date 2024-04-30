@@ -9,7 +9,10 @@ for (let i = 1; i <= 100; i++) {
     // Se il numero è divisibile per 3 stampare "Fizz"
     if (i % 3 === 0){
         console.log("Fizz")
-    }else{
-        console.log(i);
+      // Se il numero è divisibile per 5 stampare "Buzz"   
+    }else if (i % 5 === 0){
+        console.log("Buzz")
+    }else {
+        console.log(i)
     }
 }
